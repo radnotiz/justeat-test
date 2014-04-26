@@ -1,34 +1,64 @@
 package com.github.radnotiz.justeat_test.step_definitions;
 
-import cucumber.api.PendingException;
+import com.google.inject.Inject;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created with IntelliJ IDEA.
- * User: zradnoti
- * Date: 4/25/14
- * Time: 2:45 PM
- * To change this template use File | Settings | File Templates.
- */
+import java.util.List;
+
+import static com.github.radnotiz.justeat_test.step_definitions.PageModule.FrontPageUrl;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.empty;
+
 public class FrontPage {
 
+    private String url;
+    private WebDriver webDriver;
+    @FindBy(id = "where")
+    private WebElement where;
+    @FindBy(id = "btnSearch")
+    private WebElement search;
+    @FindBy(xpath = "//div[@id='SearchResults']/descendant::article")
+    private List<WebElement> searchResults;
+
+    @Inject
+    public FrontPage(WebDriver webDriver, @FrontPageUrl String url) {
+        this.webDriver = webDriver;
+        this.url = url;
+        PageFactory.initElements(webDriver, this);
+    }
+
+    @Before
+    public void openPage() {
+        webDriver.navigate().to(url);
+    }
+
+    @After
+    public void closePage() {
+        webDriver.close();
+    }
+
     @Given("^I want food in \"([^\"]*)\"$")
-    public void I_want_food_in(String arg1) throws Throwable {
-        // Express the Regexp above with the code you wish you had
-        throw new PendingException();
+    public void I_want_food_in(String area) throws Throwable {
+        where.sendKeys(area);
     }
 
     @When("^I search for restaurants$")
     public void I_search_for_restaurants() throws Throwable {
-        // Express the Regexp above with the code you wish you had
-        throw new PendingException();
+        search.click();
     }
 
     @Then("^I should see some restaurants in \"([^\"]*)\"$")
-    public void I_should_see_some_restaurants_in(String arg1) throws Throwable {
-        // Express the Regexp above with the code you wish you had
-        throw new PendingException();
+    public void I_should_see_some_restaurants_in(String area) throws Throwable {
+        assertThat(searchResults, is(not(empty())));
     }
 }
