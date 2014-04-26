@@ -9,7 +9,7 @@ Feature: Use the website to find restaurants
 		Then I should see some restaurants in "AR51"
 
     Scenario: Don't proceed with invalid postcode
-        Given I want food in "AR51"
+        Given I want food in "invalid location"
         When I search for restaurants
         Then I should see a message "Please enter a valid postcode" below the postcode just entered
 

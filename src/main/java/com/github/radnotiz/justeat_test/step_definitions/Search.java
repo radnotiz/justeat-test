@@ -17,13 +17,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-import static com.github.radnotiz.justeat_test.step_definitions.PageModule.FrontPageUrl;
+import static com.github.radnotiz.justeat_test.step_definitions.TestModule.FrontPageUrl;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.empty;
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
-public class FrontPage {
+public class Search {
 
     private String url;
     private WebDriver webDriver;
@@ -45,7 +45,7 @@ public class FrontPage {
     private WebElement hideCookieWarning;
 
     @Inject
-    public FrontPage(WebDriver webDriver, @FrontPageUrl String url) {
+    public Search(WebDriver webDriver, @FrontPageUrl String url) {
         this.webDriver = webDriver;
         this.url = url;
         PageFactory.initElements(webDriver, this);
@@ -76,6 +76,7 @@ public class FrontPage {
 
     @Then("^I should see a message \"([^\"]*)\" below the postcode just entered$")
     public void I_should_see_a_message_below_the_postcode_just_entered(String message) throws Throwable {
+
         assertThat(errorForWhere.isDisplayed(), is(true));
         assertThat(errorForWhere.getText(), is(equalTo(message)));
     }

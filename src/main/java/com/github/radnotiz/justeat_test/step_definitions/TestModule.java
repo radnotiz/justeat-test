@@ -3,6 +3,7 @@ package com.github.radnotiz.justeat_test.step_definitions;
 import com.google.inject.AbstractModule;
 import com.google.inject.BindingAnnotation;
 import com.google.inject.Provides;
+import com.google.inject.Singleton;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,7 +14,7 @@ import java.lang.annotation.Target;
 import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
-public class PageModule extends AbstractModule {
+public class TestModule extends AbstractModule {
 
     @Override
     protected void configure() {
@@ -26,7 +27,7 @@ public class PageModule extends AbstractModule {
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
             public void run() {
-                firefoxDriver.quit();
+                firefoxDriver.close();
             }
         });
         return firefoxDriver;
