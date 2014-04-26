@@ -5,6 +5,7 @@ import com.google.inject.BindingAnnotation;
 import com.google.inject.Provides;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
