@@ -1,6 +1,7 @@
 package com.github.radnotiz.justeat_test.step_definitions;
 
 import com.google.inject.Inject;
+import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -40,11 +41,6 @@ public class FrontPage {
     @Before
     public void openPage() {
         webDriver.navigate().to(url);
-    }
-
-    @After
-    public void closePage() {
-        webDriver.close();
     }
 
     @Given("^I want food in \"([^\"]*)\"$")

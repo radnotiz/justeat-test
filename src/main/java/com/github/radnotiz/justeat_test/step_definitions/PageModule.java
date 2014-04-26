@@ -2,6 +2,7 @@ package com.github.radnotiz.justeat_test.step_definitions;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.BindingAnnotation;
+import com.google.inject.Provides;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -15,8 +16,19 @@ public class PageModule extends AbstractModule {
 
     @Override
     protected void configure() {
-        bind(WebDriver.class).to(FirefoxDriver.class);
         bindConstant().annotatedWith(FrontPageUrl.class).to("http://www.just-eat.co.uk");
+    }
+
+    @Provides
+    public WebDriver firefoxDriver() {
+        final WebDriver firefoxDriver = new FirefoxDriver();
+        Runtime.getRuntime().addShutdownHook(new Thread() {
+            @Override
+            public void run() {
+                firefoxDriver.quit();
+            }
+        });
+        return firefoxDriver;
     }
 
     @BindingAnnotation
