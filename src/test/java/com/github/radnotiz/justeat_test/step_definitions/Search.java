@@ -1,6 +1,7 @@
 package com.github.radnotiz.justeat_test.step_definitions;
 
 import com.google.inject.Inject;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -57,6 +58,11 @@ public class Search {
         if (hideCookieWarning.isDisplayed()) {
             hideCookieWarning.click();
         }
+    }
+
+    @After
+    public void closePage() {
+        webDriver.close();
     }
 
     @Given("^I want food in \"([^\"]*)\"$")

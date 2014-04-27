@@ -24,12 +24,12 @@ public class TestModule extends AbstractModule {
     @Provides
     public WebDriver firefoxDriver() {
         final WebDriver firefoxDriver = new FirefoxDriver();
-        Runtime.getRuntime().addShutdownHook(new Thread() {
-            @Override
-            public void run() {
-                firefoxDriver.close();
-            }
-        });
+//        Runtime.getRuntime().addShutdownHook(new Thread() {
+//            @Override
+//            public void run() {
+//                firefoxDriver.close();
+//            }
+//        });
         return firefoxDriver;
     }
 
