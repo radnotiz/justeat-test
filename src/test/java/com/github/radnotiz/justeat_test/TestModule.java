@@ -1,4 +1,4 @@
-package com.github.radnotiz.justeat_test.step_definitions;
+package com.github.radnotiz.justeat_test;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.BindingAnnotation;
