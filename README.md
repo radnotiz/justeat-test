@@ -1,7 +1,7 @@
 justeat-test
 ============
 
-Let's see an example test for Web applications using Cucumber on JVM
+Let's see an example test for Web applications using Cucumber on JVM with an experimental way of parallel execution (tests/scenarios are statically distributed over the test runner processes that are forked by Gradle) 
 
 # Prepare
 * Install [Java(TM)](http://java.com) (version > 1.6) on your host computer, if not already installed
