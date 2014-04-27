@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a11d794b-c4b3-433e-bb49-fd9504c68323" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/justeat-test.iml" afterPath="$PROJECT_DIR$/justeat-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="justeat-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398544433692" ignored="false" />
-    <file path="/build.gradle" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398588078335" ignored="false" />
+    <file path="/Dummy.txt" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398588538396" ignored="false" />
+    <file path="/build.gradle" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592284024" ignored="false" />
     <file path="/FrontPage.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398543058364" ignored="false" />
     <file path="/PageModule.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398537538462" ignored="false" />
     <file path="/cucumber-guice.properties" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398515449455" ignored="false" />
     <file path="/search.feature" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398586152126" ignored="false" />
-    <file path="/fragment.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398587413242" ignored="false" />
-    <file path="/Search.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398587319813" ignored="false" />
-    <file path="/TestModule.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398586919279" ignored="false" />
+    <file path="/fragment.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592692305" ignored="false" />
+    <file path="/Search.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592917846" ignored="false" />
+    <file path="/TestModule.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592198391" ignored="false" />
     <file path="/RunSearchTest.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398586242375" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398588279018" ignored="false" />
+    <file path="/README.md" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398588559919" ignored="false" />
+    <file path="/SearchPage.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592850631" ignored="false" />
+    <file path="/InappropriateRestaurantInSearchResultExpcetion.java" changelist="a11d794b-c4b3-433e-bb49-fd9504c68323" time="1398592718602" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.15400411">
+            <state line="62" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,10 +105,28 @@
       <file leaf-file-name="Search.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="26" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
+            <state line="65" column="8" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="46" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.40265486">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InappropriateRestaurantInSearchResultExpcetion.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/InappropriateRestaurantInSearchResultExpcetion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,9 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupA.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="26" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,37 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunTestGroupB.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cucumber.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-junit/1.1.6/94f1c7b11b3406b789400b89d5ee521846ba8286/cucumber-junit-1.1.6-sources.jar!/cucumber/api/junit/Cucumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="13" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="63" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cucumber-guice.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber-guice.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="25" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,10 +161,17 @@
       <file leaf-file-name="TestModule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="838" selection-end="1026" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="27" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPageUrl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPageUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,9 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/test/resource/cucumber-guice.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/step_definitions/PageModule.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/step_definitions/FrontPage.java" />
         <option value="$PROJECT_DIR$/src/test/resource/com/github/radnotiz/justeat_test/features/search.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/step_definitions/TestModule.java" />
@@ -280,11 +278,15 @@
         <option value="$PROJECT_DIR$/src/test/resources/com/github/radnotiz/justeat_test/features/search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupB.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunSearchTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupC.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/page_objects/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPageUrl.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/InappropriateRestaurantInSearchResultExpcetion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java" />
       </list>
     </option>
   </component>
@@ -319,7 +321,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -481,13 +482,22 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -501,15 +511,20 @@
     <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.radnotiz.justeat_test.page_objects" />
       <recent name="com.github.radnotiz.justeat_test" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.radnotiz.justeat_test.page_objects" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.radnotiz.justeat_test.page_objects" />
       <recent name="com.github.radnotiz.justeat_test" />
       <recent name="com.github.radnotiz.justeat_test.step_definitions" />
     </key>
@@ -611,6 +626,34 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -636,34 +679,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <option name="GLUE" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -743,23 +758,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19368723" sideWeight="0.6708229" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19368723" sideWeight="0.670398" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.670398" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -825,32 +840,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="0" selection-start="4767" selection-end="4767" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.41.0/8595c93482e2110bc0ecd825e88a1466d8c817ce/selenium-api-2.41.0-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="19" selection-start="6561" selection-end="6561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/36b6a585c0f0c63bd85fb04db0dcb7b217298956/guava-15.0-sources.jar!/com/google/common/collect/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="488" column="52" selection-start="19076" selection-end="19076" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="488" column="52" selection-start="19076" selection-end="19076" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.41.0/8595c93482e2110bc0ecd825e88a1466d8c817ce/selenium-api-2.41.0-sources.jar!/org/openqa/selenium/WebDriver.java">
@@ -862,9 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-junit/1.1.6/94f1c7b11b3406b789400b89d5ee521846ba8286/cucumber-junit-1.1.6-sources.jar!/cucumber/api/junit/Cucumber.java">
@@ -888,43 +878,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="838" selection-end="1026" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/RunTestGroupC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="26" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="63" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -938,8 +901,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.15400411">
+        <state line="62" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPageUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/step_definitions/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="8" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/radnotiz/justeat_test/TestModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/InappropriateRestaurantInSearchResultExpcetion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/radnotiz/justeat_test/page_objects/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="46" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.40265486">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
