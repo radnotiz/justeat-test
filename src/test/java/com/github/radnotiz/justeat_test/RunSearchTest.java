@@ -5,6 +5,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resource/com/github/radnotiz/justeat_test/features")
+@CucumberOptions(features = "src/test/resources/com/github/radnotiz/justeat_test/features")
 public class RunSearchTest {
 }
