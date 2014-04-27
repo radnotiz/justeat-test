@@ -86,6 +86,7 @@ public class SearchPage {
     }
 
     public void onlyRestaurantsVisibleServing(String cuisine) {
+        // TODO refactor to minimize nr. of browser queries
         for (WebElement result : searchResultsOpenOnes) {
             String exprRestaurantContainingCuisine = ".//p[@class[contains(.,'restaurantCuisines')] and text()[contains(.,'" + cuisine + "')]]";
 
