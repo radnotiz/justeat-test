@@ -4,6 +4,10 @@
 out/
 target/
 
+# Gradle
+.gradle/
+build/
+
 # Package Files #
 *.jar
 *.war
