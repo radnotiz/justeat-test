@@ -6,16 +6,24 @@ Let's see an example test for Web applications using Cucumber on JVM
 # Prepare
 * Install [Java(TM)](http://java.com) (version > 1.6) on your host computer, if not already installed
 
-* Download and unzip https://github.com/radnotiz/justeat-test/archive/master.zip
+* Either download and unzip https://github.com/radnotiz/justeat-test/archive/master.zip 
+ 
+ or 
+ 
+ install [Git](http://git-scm.com) and type 
+ ```
+ git clone https://github.com/radnotiz/justeat-test.git
+ ```
+ on your console.
 
-or install [Git](http://git-scm.com) and type 
-```
-git clone https://github.com/radnotiz/justeat-test.git
-```
-on your console.
+* Be sure [Firefox](http://www.mozilla.org/en-US/firefox/) is installed on your local host.
 
 # Run
-Type 
+Change your working directory
+```
+cd justeat-test
+```
+and type 
 ```
 gradle test
 ```
