@@ -47,6 +47,8 @@ BUILD SUCCESSFUL
 Total time: 54.68 secs
 ```
 
+Alternatively you may want to use XML output files as well at `build/test-results/' folder
+
 # Under the hood
 
 Tests are built upon [Cucumber-JVM](https://github.com/cucumber/cucumber-jvm)
