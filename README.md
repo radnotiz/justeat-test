@@ -60,3 +60,7 @@ Step definitions are implemented in the `src/test/java` directory
 Cucumber integrates to JUnit by @Cucumber annotated JUnit classes
 
 Browser automation is provided by [Selenium WebDriver](http://docs.seleniumhq.org/projects/webdriver/)
+
+# Known issues
+
+* When font size is set other than 100% on Win7 click won't work with Firefox. [Details](https://code.google.com/p/selenium/issues/detail?id=7223)
