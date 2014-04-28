@@ -25,7 +25,7 @@ cd justeat-test
 ```
 and type 
 ```
-gradle test
+gradle clean test
 ```
 on your console.
 
@@ -63,4 +63,4 @@ Browser automation is provided by [Selenium WebDriver](http://docs.seleniumhq.or
 
 # Known issues
 
-* When font size is set other than 100% on Win7 click won't work with Firefox. [Details](https://code.google.com/p/selenium/issues/detail?id=7223)
+* When font size is set to other than 100% on Win7 click won't work with Firefox. [Details](https://code.google.com/p/selenium/issues/detail?id=7223)
