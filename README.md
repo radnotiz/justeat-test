@@ -29,6 +29,11 @@ gradle clean test
 ```
 on your console.
 
+To use real browser instead of the in memory headless driver, add an argument as follows
+```
+gradle clean test -Dbrowser.driver=firefox
+```
+
 # Check results
 Follow the console output and find the location of test results and open the html report in a browser:
 ```

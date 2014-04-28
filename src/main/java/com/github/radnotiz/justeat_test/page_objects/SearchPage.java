@@ -7,11 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 public class SearchPage {
 
@@ -41,6 +43,10 @@ public class SearchPage {
         PageFactory.initElements(webDriver, this);
     }
 
+    private WebDriverWait webDriverWait() {
+        return new WebDriverWait(webDriver, 3);
+    }
+
     public void open() {
         webDriver.navigate().to(url);
     }
@@ -56,6 +62,7 @@ public class SearchPage {
     }
 
     public void typeArea(String area) {
+        where.clear();
         where.sendKeys(area);
     }
 
@@ -68,7 +75,7 @@ public class SearchPage {
     }
 
     public boolean postcodeErrorMessageIsDisplayed() {
-        return errorForWhere.isDisplayed();
+        return webDriverWait().until(visibilityOf(errorForWhere)).isDisplayed();
     }
 
     public String getPostcodeErrorMessage() {
@@ -81,18 +88,20 @@ public class SearchPage {
         } catch (ElementNotVisibleException e) {
             what_chzn_a.click();
             String exprCuisine = "//ul[contains(@class,'chzn-results')]/li[contains(text(),'" + cuisine + "')]";
-            new WebDriverWait(webDriver, 3).until(ExpectedConditions.elementToBeClickable(By.xpath(exprCuisine))).click();
+            webDriverWait().until(elementToBeClickable(By.xpath(exprCuisine))).click();
         }
     }
 
     public void onlyRestaurantsVisibleServing(String cuisine) {
         // TODO refactor to minimize nr. of browser queries
         for (WebElement result : searchResultsOpenOnes) {
-            String exprRestaurantContainingCuisine = ".//p[@class[contains(.,'restaurantCuisines')] and text()[contains(.,'" + cuisine + "')]]";
+            String exprRestaurantContainingCuisine =
+                    ".//p[@class[contains(.,'restaurantCuisines')] and text()[contains(.,'" + cuisine + "')]]";
 
             if (result.findElements(By.xpath(exprRestaurantContainingCuisine)).isEmpty()) {
                 String restaurant = result.findElement(By.xpath(".//a")).getAttribute("href");
-                String reason = "Restaurant @ " + restaurant + " expected to have " + cuisine + " cuisine, but it was not found.";
+                String reason = "Restaurant @ " + restaurant + " expected to have " + cuisine +
+                        " cuisine, but it was not found.";
                 throw new InappropriateRestaurantInSearchResultExpcetion(reason);
             }
         }

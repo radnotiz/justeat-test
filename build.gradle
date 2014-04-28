@@ -38,8 +38,12 @@ dependencies {
 
 test {
     maxParallelForks = 3
+    systemProperties = System.getProperties()
 }
 
 test.doLast {
     logger.lifecycle "Check test results at build/reports/tests/index.html"
 }
+
+
+
